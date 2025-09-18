@@ -1,0 +1,20 @@
+#ir_footer {
+    background-color: lightsalmon;
+}
+
+.bg-dark {
+    background-color: black;
+    color: white;
+}
+
+/*p{
+    background-color: red;
+}*/
+
+p strong{
+    background-color: yellow;
+}
+
+a:hover{
+    background-color: blue;
+}
