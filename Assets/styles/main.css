@@ -1,5 +1,14 @@
+/*
+body{
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
 #ir_footer {
     background-color: lightsalmon;
+}
+
+#ir_footer:hover {
+    background-color: lightblue;
 }
 
 .bg-dark {
@@ -15,6 +24,59 @@ p strong{
     background-color: yellow;
 }
 
+.hover-morado:hover{
+    background-color: purple;
+}
+
 a:hover{
     background-color: blue;
 }
+p:hover {
+    background-color: lightgreen;
+}
+
+p:hover#hover-rojo {
+    background-color: red;
+}
+
+#hover-parrafo {
+    background-color: yellow;
+}
+
+#parrafo-azul {
+    background-color: blue;
+}
+
+#parafo-azul:hover {
+    background-color: lightblue;
+}
+
+b:hover#hover-parrafo {
+    background-color: orange;
+}
+
+li:first-child {
+    background-color: red;
+}
+li:last-child {
+    background-color: orange;
+}
+
+/*
+@font-face {
+    font-family: Dirtylane;
+    src: url(../fonts/Dirtylane\ \(Demo_Font\).otf);
+}
+.title{
+    font-family: Dirtylane;
+    font-size: 100px;
+    background-color: lightblue;
+    text-align: center;
+}
+
+/* CONTACT
+
+#label_email{
+    font-style: italic;
+    font-weight: 800;
+} */
