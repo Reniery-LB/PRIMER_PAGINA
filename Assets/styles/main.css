@@ -62,7 +62,6 @@ li:last-child {
     background-color: orange;
 }
 
-/*
 @font-face {
     font-family: Dirtylane;
     src: url(../fonts/Dirtylane\ \(Demo_Font\).otf);
@@ -74,9 +73,32 @@ li:last-child {
     text-align: center;
 }
 
-/* CONTACT
+
+/* CONTACT */
 
 #label_email{
     font-style: italic;
     font-weight: 800;
-} */
+}
+
+.h2{
+    font-family: Dirtylane;
+    font-size: 40px;
+    text-align: left;
+    text-shadow: 2px 2px 5px blueviolet;
+}
+
+#mensaje-formulario{
+    font-size: 20px;
+    background-color: yellow;
+    text-align: justify;
+}
+
+#contraseña{
+    text-transform: uppercase;
+}
+
+#select{
+    text-decoration-line: underline;
+    text-decoration-color: red;
+}

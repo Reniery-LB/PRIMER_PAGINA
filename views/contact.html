@@ -6,7 +6,8 @@
     <title>Contacto</title>
 </head>
 <body>
-    <h1>Contacto</h1>
+    <link rel="stylesheet" href="../Assets/styles/main.css">
+    <h1 class="title">Contacto</h1>
 
     <a href="../index.html">Regresar a Inicio</a>
 
@@ -19,6 +20,33 @@
 
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6101.766117079534!2d-111.34723852358377!3d26.0074533357455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86b43b85fb08a19f%3A0x419085316108124d!2sHotel%20La%20Misi%C3%B3n%20de%20Loreto!5e0!3m2!1ses-419!2smx!4v1757386192965!5m2!1ses-419!2smx" 
   width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  
+  <h2 class="h2">Formulario de contacto</h2>
+  <p id="mensaje-formulario">Por favor, llena el siguiente formulario para enviarme un mensaje:</p>
+  <hr>
+  <form>
+    <label><em><strong>Correo electrónico</strong></em></label>
+    <br>
+    <input type="email" value="relu_23@alu.uabcs.mx" >
+    <br>
+    <label id="contraseña">Contraseña</label>
+    <br>  
+    <input type="password">
+    <br>
+    <label id="select">Seleccione una opción</label>
+    <select>
+        <option value="opcion1">Opción 1</option>
+        <option value="opcion2">Opción 2</option>
+        <option value="opcion3">Opción 3</option>
+    </select>
+    <br><br>
+    <label>Nombre</label>
+    <input type="text">
+    <br>
+    <label>Mensaje</label>
+    <br>
+    <textarea placeholder="Escribe tu mensaje aquí..."></textarea>
+  </form>
 
 </body>
 </html>
