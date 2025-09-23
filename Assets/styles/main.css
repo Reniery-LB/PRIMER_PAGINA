@@ -26,8 +26,24 @@ p strong{
 
 .hover-morado:hover{
     background-color: purple;
+    
+}
+.border-morado{
+    background-color: red;
+    padding: 10px 20px 20px 50px;
+    border: 10px;
+    border-style:groove;
+    text-align: justify;
+    margin: 100px;
 }
 
+.border_parrafo{
+    background-color: lightgreen;
+    border: 10px;
+    border-style: dotted;
+    border-color: green;
+    border-radius: 60px;
+}
 a:hover{
     background-color: blue;
 }
@@ -43,9 +59,12 @@ p:hover#hover-rojo {
     background-color: yellow;
 }
 
-#parrafo-azul {
+.border-azul {
     background-color: blue;
+    border: 5px;
+    border-style: dashed;
 }
+
 
 #parafo-azul:hover {
     background-color: lightblue;
@@ -92,6 +111,7 @@ li:last-child {
     font-size: 20px;
     background-color: yellow;
     text-align: justify;
+    margin: 50px;
 }
 
 #contraseña{
@@ -101,4 +121,11 @@ li:last-child {
 #select{
     text-decoration-line: underline;
     text-decoration-color: red;
+}
+
+/* FIN CONTACT */
+/* ABOUT */
+
+img{
+    width: 10%;
 }
