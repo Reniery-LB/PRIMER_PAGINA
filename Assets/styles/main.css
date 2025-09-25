@@ -37,8 +37,8 @@ p strong{
     margin: 100px;
 }
 
-.border_parrafo{
-    background-color: lightgreen;
+.border_parrafo:hover{
+   background-color: lightgreen; 
     border: 10px;
     border-style: dotted;
     border-color: green;
@@ -86,10 +86,26 @@ li:last-child {
     src: url(../fonts/Dirtylane\ \(Demo_Font\).otf);
 }
 .title{
+    background-color: url(../img/luna-llena.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 50%;
     font-family: Dirtylane;
     font-size: 100px;
     background-color: lightblue;
     text-align: center;
+ 
+}
+
+a{
+    display: block;
+}
+
+#bg_image{
+    background-image: url(../img/luna-llena.png);
+    background-size: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
